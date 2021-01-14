@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 portfolioServer.js",
+    "start": "pm2 start portfolioServer.js",
     "dev": "nodemon --ignore my-portfolio-public portfolioServer.js"
   },
   "keywords": [],
